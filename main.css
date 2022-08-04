@@ -1,0 +1,80 @@
+/* font-family: 'Fraunces',
+serif; */
+/* font-family: 'Montserrat',
+sans-serif */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(30, 38%, 92%);
+  width: 100%;
+  padding: 10em 25em;
+}
+#project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.product-image img {
+  height: 20em;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+  margin-left: 3em;
+}
+.product-text {
+  height: 20em;
+  background: hsl(0, 0%, 100%);
+  width: 100%;
+  margin-right: 5em;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+  padding-left: 1em;
+}
+.head {
+  padding: 2em 0 1em 0;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.5em;
+  font-size: 0.5em;
+  font-family: "Montserrat", sans-serif;
+}
+.sub-t {
+  font-family: "Fraunces", serif;
+  padding-right: 0.5em;
+  text-transform: capitalize;
+  padding-bottom: 0.5em;
+  line-height: 1em;
+  color: hsl(212, 21%, 14%);
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7em;
+  color: hsl(228, 12%, 48%);
+  padding-bottom: 2em;
+}
+h1 {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+}
+.tail {
+  display: inline-block;
+  padding: 0 0 1em 2em;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+button {
+  margin-top: 2em;
+  text-align: center;
+  width: 80%;
+  border-radius: 0.4em;
+  background: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-size: 0.5em;
+  text-align: center;
+  border-color: hsl(158, 36%, 37%);
+  padding: 2px;
+}
